@@ -36,7 +36,7 @@
             
  
 
-_Пример вывода структуры в консоли, после запуска роли `/roles/monitioring`:_
+###### _Пример вывода структуры в консоли, после запуска роли `/roles/monitioring`:_
 ```yaml
   msg:
   - domain: cadvisor.ct.smprojects.ru
@@ -51,7 +51,7 @@ _Пример вывода структуры в консоли, после за
 
 ## Описание переменных, вывод значений и с помощью чего они генерируются
 
-_С помощью таска: `Transform dict to array flatten_grafana_organizations`,
+###### _С помощью таска: `Transform dict to array flatten_grafana_organizations`,
 получаем переменные и значения для:_
 ```yaml
 инстанс:
