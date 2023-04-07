@@ -47,8 +47,9 @@
     password: password
     user: cadvisor
 ```
----
-``                                                                                  ``
+
+``                                                                                                                                                        ``
+
 ## Описание переменных, вывод значений и с помощью чего они генерируются
 
 ###### _С помощью таска: `Transform dict to array flatten_grafana_organizations`, получаем переменные и значения для:_
