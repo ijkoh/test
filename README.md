@@ -52,7 +52,7 @@ _Пример вывода структуры в консоли, после за
 С помощью таска: Transform dict to array flatten_grafana_organizations,
 получаем переменные и значения для:
 ```yaml
-instans:
+инстанс:
  1. exporter 
  2. instance
  3. organization
@@ -68,9 +68,10 @@ endpoint:
  7. password
 ```
 Таск Transform dict to array flatten_grafana_organizations исключает генерацию домена в уже созданный заранее вручную домен в инстансе. Берёт те инстансы, которые указаны в структуре без инстанса и генерирует им, с помощью тасков: Generate passwords for basicAuth и Lookup exporters password for prometheus scrape_configs, такие переменные, как:
-
+```yaml
 инстанс:
  4. domain 
  5. user
  6. label
  7. password
+```
