@@ -29,6 +29,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33303536666237346137373532386332313339323232313831666335353838306636643363656266
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6336363936653532663461623135653335386665623235343935</pre>
 
+
+``` yaml
  CargorunGeocoder:
     endpoint:
       - instance: geocoder-prod
