@@ -32,7 +32,7 @@ _Example(endpoint)_
 ```
             
             
-
+ 
 
 _Пример вывода структуры в консоли, после запуска роли `/roles/monitioring`:_
 ```yaml
