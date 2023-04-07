@@ -34,17 +34,17 @@ _Данные берутся из структуры организации, к�
             
 
 
-<h6><em>Пример вывода структуры в консоли, после запуска роли /roles/monitioring:</em></h6>
-
-<pre>&nbsp;&nbsp;msg:
-&nbsp;&nbsp;- domain: cadvisor.ct.smprojects.ru
-&nbsp;&nbsp;&nbsp;&nbsp;exporter: cadvisor
-&nbsp;&nbsp;&nbsp;&nbsp;instance: cargorun-eam-prod-connecticut
-&nbsp;&nbsp;&nbsp;&nbsp;label: cadvisor-connecticut
-&nbsp;&nbsp;&nbsp;&nbsp;organization: CargorunEAM
-&nbsp;&nbsp;&nbsp;&nbsp;password: password
-&nbsp;&nbsp;&nbsp;&nbsp;user: cadvisor</pre>
-
+Пример вывода структуры в консоли, после запуска роли /roles/monitioring:
+```yaml
+  msg:
+  - domain: cadvisor.ct.smprojects.ru
+    exporter: cadvisor
+    instance: cargorun-eam-prod-connecticut
+    label: cadvisor-connecticut
+    organization: CargorunEAM
+    password: password
+    user: cadvisor
+```
 ---
 <main>
 <h2>Описание переменных, вывод значений и с помощью чего они генерируются</h2>
