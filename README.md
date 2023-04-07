@@ -5,7 +5,7 @@
 _Данные берутся из структуры организации, которая находится, путь: vars_smartpetrol/monitoring/ "grafana_organizations", 
 и выполняются c помощью роли: monitoring/define_vars/main.yml_
 
-### 1. Под grafana_organizations:
+###### 1. Под grafana_organizations:
 добавляем вашу новую организацию, под ней экспортер или endpoint.
 
 2. Указываем инстанс метрики. Если это endpoint, то нужно указать ещё domain и user.
