@@ -13,7 +13,7 @@ _Данные берутся из структуры организации, к�
 3. Password vault generation with command: `ansible-vault encrypt_string`
 
 
-**Example(endpoint)**
+_Example(endpoint)_
 
 ``` yaml
  CargorunGeocoder:
