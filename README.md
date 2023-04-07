@@ -2,8 +2,8 @@
 # Добавление/создание нового инстанса/домена в организации.
 
 
-**Данные берутся из структуры организации, которая находится, путь: vars_smartpetrol/monitoring/ "grafana_organizations", 
-и выполняются c помощью роли: monitoring/define_vars/main.yml**
+_**Данные берутся из структуры организации, которая находится, путь: vars_smartpetrol/monitoring/ "grafana_organizations", 
+и выполняются c помощью роли: monitoring/define_vars/main.yml**_
 
 1. Под grafana_organizations:
 добавляем вашу новую организацию, под ней экспортер или endpoint.
