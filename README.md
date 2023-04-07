@@ -46,11 +46,11 @@ _Пример вывода структуры в консоли, после за
     user: cadvisor
 ```
 ---
-<main>
-<h2>Описание переменных, вывод значений и с помощью чего они генерируются</h2>
-</main>
-<h6>&nbsp;&nbsp;&nbsp;&nbsp;С помощью таска: Transform dict to array flatten_grafana_organizations,
-получаем переменные и значения для:</h6>
+
+# Описание переменных, вывод значений и с помощью чего они генерируются
+
+С помощью таска: Transform dict to array flatten_grafana_organizations,
+получаем переменные и значения для:
 
 <pre><em>инстанс:
  1. exporter 
