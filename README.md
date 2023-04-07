@@ -34,7 +34,7 @@ _Example(endpoint)_
             
 
 
-Пример вывода структуры в консоли, после запуска роли /roles/monitioring:
+_Пример вывода структуры в консоли, после запуска роли /roles/monitioring:_
 ```yaml
   msg:
   - domain: cadvisor.ct.smprojects.ru
