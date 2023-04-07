@@ -56,6 +56,8 @@ _Пример вывода структуры в консоли, после за
  1. exporter 
  2. instance
  3. organization
+````
+```yaml
 endpoint:
  1. exporter 
  2. instance
