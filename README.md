@@ -3,7 +3,7 @@
 
 
 ##### _Данные берутся из структуры организации, которая находится, путь: vars_smartpetrol/monitoring/ "grafana_organizations",_
-#####и _выполняются c помощью роли: monitoring/define_vars/main.yml_
+##### _и выполняются c помощью роли: monitoring/define_vars/main.yml_
 
 
 
