@@ -52,7 +52,7 @@ _Пример вывода структуры в консоли, после за
 С помощью таска: Transform dict to array flatten_grafana_organizations,
 получаем переменные и значения для:
 ```yaml
-инстанс:
+instans:
  1. exporter 
  2. instance
  3. organization
