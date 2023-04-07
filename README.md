@@ -13,21 +13,7 @@
 3. Password vault generation with command: `ansible-vault encrypt_string`
 
 
-<h6><em>Example(endpoint):</em></h6> 
-
-<pre>&nbsp;CargorunGeocoder:
-&nbsp;&nbsp;&nbsp;&nbsp;endpoint:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- instance: geocoder-prod
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: metrics.prod.app.geo.canada.smprojects.ru
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user: pushgateway
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;password: !vault |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ANSIBLE_VAULT;1.1;AES256
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65383637616264663833646634626564346333323965316231346161356338383932366534653237
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3036653637393266333738306236656636383431306436650a383161623735633066396165623162
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64356532663635643931333233623861356265336530316636376537366438313263303538366661
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3632623530653330310a386266623535653633636339396238653762356663306565626338366239
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33303536666237346137373532386332313339323232313831666335353838306636643363656266
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6336363936653532663461623135653335386665623235343935</pre>
+Example(endpoint)
 
 
 ``` yaml
