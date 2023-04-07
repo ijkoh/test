@@ -52,23 +52,23 @@ _Пример вывода структуры в консоли, после за
 С помощью таска: Transform dict to array flatten_grafana_organizations,
 получаем переменные и значения для:
 
-<pre><em>инстанс:
+инстанс:
  1. exporter 
  2. instance
- 3. organization</em></pre>
-<pre><em>endpoint:
+ 3. organization
+endpoint:
  1. exporter 
  2. instance
  3. organization
  4. domain 
  5. user
  6. label
- 7. password</em></pre>
+ 7. password
 
-<h6>&nbsp;&nbsp;&nbsp;&nbsp;Таск Transform dict to array flatten_grafana_organizations исключает генерацию домена в уже созданный заранее вручную домен в инстансе. Берёт те инстансы, которые указаны в структуре без инстанса и генерирует им, с помощью тасков: Generate passwords for basicAuth и Lookup exporters password for prometheus scrape_configs, такие переменные, как:</h6> 
+Таск Transform dict to array flatten_grafana_organizations исключает генерацию домена в уже созданный заранее вручную домен в инстансе. Берёт те инстансы, которые указаны в структуре без инстанса и генерирует им, с помощью тасков: Generate passwords for basicAuth и Lookup exporters password for prometheus scrape_configs, такие переменные, как:
 
-<pre><em>инстанс:
+инстанс:
  4. domain 
  5. user
  6. label
- 7. password</em></pre>
+ 7. password
