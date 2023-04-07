@@ -51,8 +51,7 @@
 
 ## Описание переменных, вывод значений и с помощью чего они генерируются
 
-###### _С помощью таска: `Transform dict to array flatten_grafana_organizations`,
-получаем переменные и значения для:_
+###### _С помощью таска: `Transform dict to array flatten_grafana_organizations`, получаем переменные и значения для:_
 ```yaml
 инстанс:
  1. exporter 
